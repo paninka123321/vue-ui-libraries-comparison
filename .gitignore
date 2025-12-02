@@ -82,3 +82,35 @@ vuetify/dist/
 *.user
 *.bak
 
+# --- OGÓLNE DUŻE PLIKI ---
+
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.psd
+
+# Notebooki (mogą być duże)
+
+
+# Archiwa
+*.zip
+*.tar
+*.gz
+*.7z
+
+# --- NODE / FRONT-END ---
+node_modules/
+dist/
+build/
+.cache/
+.vite/
+.eslintcache
+
+# Logi
+*.log
+
+# Systemowe
+.DS_Store
+Thumbs.db
